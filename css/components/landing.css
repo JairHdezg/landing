@@ -6,6 +6,7 @@
   display: flex;
   justify-content: flex-end;
   position: relative;
+  transition-duration: 400ms;
 }
 
 .landing-image {
@@ -15,13 +16,23 @@
   background-image: url(https://64.media.tumblr.com/5d1c38dfd3fe2db9986e6e1d733acb98/tumblr_oicpee5Eo91r91oaao1_1280.jpg);
 }
 
+.landing:hover {
+  width:100%;
+}
+
+.landing:hover .landing-text {
+  top: 2%;
+  left: 10%;
+}
+
 .landing-text {
   width: 30%;
   position: absolute;
   top: 5%;
   left: 15%;
   font-size: 1em;
-  color: #727372
+  color: #727372;
+  transition-duration: 400ms
 }
 
 .landing-text p {
