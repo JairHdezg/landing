@@ -29,6 +29,10 @@
   max-width: 400px
 }
 
+.card:hover {
+  margin-bottom: 5%
+}
+
 .card-image {
   margin: 10% auto;
   height: 40%;
