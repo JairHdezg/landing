@@ -1,0 +1,48 @@
+.content {
+  width: 90%;
+  background-color: #FFFFFF;
+  height: 43%;
+  margin: 10% auto 0 auto;
+}
+
+.content h2 {
+  height: 20%;
+  text-align: center;
+}
+
+.products {
+  margin: 0 auto;
+  height: 80%;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  width: 90%
+}
+
+.card {
+  width: 30%;
+  border: 0 solid lightgray;
+  height: 90%;
+  text-align: center;
+  box-shadow: 0 0 15px lightgray;
+  border-radius: 2em;
+  max-width: 400px
+}
+
+.card-image {
+  margin: 10% auto;
+  height: 40%;
+  width: 80%;
+  background-size: cover;
+  background-position: center
+}
+
+.card-text {
+  margin: 20% auto;
+  height: 30%;
+  width: 80%;
+}
+
+.card-text p {
+  font-size: 13px
+}
